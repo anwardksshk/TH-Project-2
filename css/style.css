@@ -1,0 +1,144 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  color: #3F3F3F;
+}
+
+a{
+  text-decoration: none;
+}
+
+ img  {
+   max-width: 100%;
+ }
+
+ /**********************************
+ HEADING
+ **********************************/
+
+ header{
+   background-color: #F7F7F7; /*lightseagreen*/
+   margin: 0 0 30px 0;
+   padding: 5px 0;
+   width: 100%;
+ }
+
+ h1  {
+   text-align: center;
+   font-size: 2em;
+ }
+
+ .intro {
+   margin: 20px 20px 50px;
+   text-align: center;
+   font-size: 1.25em;
+ }
+
+ .profile-photo {
+   max-width: 70%;
+ }
+
+ /**********************************
+ NAVIGATION
+ **********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: -20px 0 0;
+}
+nav ul{
+  padding-left: 0; /*remove indent of listed items*/
+  margin: 0 20px;
+}
+
+nav li  {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-align:  center;
+  text-transform: uppercase;
+}
+
+nav li a:visited{
+  color: black;
+}
+
+nav a{ /*increase clickable area*/
+  padding: 10px 15px;
+  display: block;
+  color: black;
+}
+
+nav li:hover {
+  background-color: #F0FFF0;
+}
+
+nav li:active {
+  background-color: #20B2AA;
+}
+
+/**********************************
+Main Body
+**********************************/
+
+.wrapper{
+  max-width: 90%;
+  margin: 5% 5%;
+}
+
+h2  {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  padding: 12px;
+}
+
+.work_gallery {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 10px 0 10px;
+  font-size: 1.25em;
+}
+
+.work_gallery h3  {
+  margin-top: 30px;
+}
+/**********************************
+Footer
+**********************************/
+
+footer{
+  background-color: #F7F7F7;
+  font-size: 1.1em;
+}
+
+#contact{
+  text-align: center;
+  padding: 20px 20px 30px;
+}
+
+.contact_links{
+  list-style-type: none;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.footer_nav {
+  border-top: 3px #20B2AA solid;
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.footer_nav h3 {
+  float: left;
+  padding: 0;
+  margin: 0;
+
+}
+.footer_nav nav{
+  float: right;
+
+}
