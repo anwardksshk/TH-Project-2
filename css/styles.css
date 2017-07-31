@@ -1,0 +1,213 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  color: #3F3F3F;
+  box-sizing: border-box;
+}
+
+ul{
+  padding-left: 0; /*remove indent of listed items*/
+}
+
+li  {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ img  {
+   max-width: 100%;
+ }
+
+ p{
+   line-height: 1.5;
+ }
+
+ h2 {
+   display: inline-block;
+   text-transform: uppercase;
+   border-bottom: 2px solid #20B2AA;
+   padding-bottom: 5px;
+   font-size: 1em;
+ }
+
+ body {
+  background-color: #F7F7F7;
+ }
+
+ /**********************************
+ HEADING
+ **********************************/
+
+ header{
+   margin: 0 0 30px 0;
+   padding: 5px 0;
+   width: 100%;
+ }
+
+ #top_logo  {
+   text-align: center;
+   font-size: 2em;
+ }
+
+ .intro {
+   margin: 20px 20px 50px;
+   text-align: center;
+   font-size: 1.25em;
+
+ }
+
+  .intro  p {
+    color: #808080;
+    font-size: 1.1em;
+  }
+
+ .profile-photo {
+   max-width: 70%;
+ }
+
+ /**********************************
+ NAVIGATION
+ **********************************/
+
+.main_nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: -20px 0 0;
+}
+.main_nav ul{
+  margin: 0 20px;
+}
+
+.main_nav li  {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-align:  center;
+  text-transform: uppercase;
+}
+
+.main_nav li a:visited{
+  color: black;
+}
+
+.main_nav a{ /*increase clickable area*/
+  padding: 10px 15px;
+  display: block;
+  color: black;
+}
+
+.main_nav li:hover {
+  background-color: #F0FFF0;
+}
+
+.main_nav li:active {
+  background-color: #20B2AA;
+}
+
+/**********************************
+Main Body
+**********************************/
+.wrapper{
+   background-color: white;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.wrapper div h2  {
+  margin: 20px 0 50px ;
+}
+
+#portfolio li {
+  text-align: center;
+  width: 90%;
+  margin: 10px 5% 10px;
+  font-size: 1.1em;
+}
+
+#portfolio li p{
+  padding: 0 5% 5%;
+}
+
+#portfolio h3  {
+  margin-top: 30px;
+}
+
+#language span  {
+  background-color: #20B2AA;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; /* may require vendor prefixes */
+  color: white;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+#language span:hover  {
+  background-color: rgba(32,178,170,0.7);
+}
+
+
+#contact{
+  text-align: center;
+  padding: 20px 20px 50px;
+  font-size: 1.2em;
+  margin: 0 auto;
+
+}
+
+#contact p {
+  margin-bottom: 8%;
+}
+
+#contact h2 {
+  margin: 20px 0 20px;
+}
+
+#contact li {
+  margin-top: 20px;
+}
+.contact_links{
+  color: #808080;
+}
+
+hr{
+  margin: 0 5%;
+}
+/**********************************
+Footer
+**********************************/
+
+footer{
+  padding: 5px 5%;
+}
+footer h3{
+  font-size: 1em;
+}
+
+.footer_logo {
+  float: left;
+}
+
+.footer_nav_1 {
+  text-transform: uppercase;
+  float: right;
+}
+
+.footer_nav_2 {
+  display: none;
+  text-transform: uppercase;
+}
+
+/**********************************
+Clearfix
+**********************************/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
